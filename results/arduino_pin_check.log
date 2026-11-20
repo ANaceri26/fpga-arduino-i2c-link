@@ -1,0 +1,1 @@
+PASS: all 72 assigned pins match Terasic manual; no duplicate pins; all source/SDC paths exist.

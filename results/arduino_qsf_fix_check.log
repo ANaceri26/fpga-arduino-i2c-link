@@ -1,0 +1,154 @@
+Fixed QSF:
+PASS: QSF has 72 unique bare port names, locations and I/O standards.
+No fitted .pin report supplied: Quartus acceptance/placement is NOT verified.
+
+Original QSF (expected rejection):
+FAIL: C:\Users\Naceri\Documents\PROJECTS\fpga_projects\tmp\troubleshooting\original_delivered.qsf:14: use a bare QSF port name, not '{MAX10_CLK1_50}'
+
+Submitted bad fit (expected rejection):
+PASS: QSF has 72 unique bare port names, locations and I/O standards.
+FAIL: 144 fitted pin/voltage mismatches.
+  MAX10_CLK1_50: expected P11, fitted M8
+  MAX10_CLK1_50: expected 3.3-V LVTTL, fitted 2.5 V
+  KEY0: expected B8, fitted M9
+  KEY0: expected 3.3 V SCHMITT TRIGGER, fitted 2.5 V
+  I2C_SDA: expected AB21, fitted A5
+  I2C_SDA: expected 3.3-V LVTTL, fitted 2.5 V
+  I2C_SCL: expected AA20, fitted C8
+  I2C_SCL: expected 3.3-V LVTTL, fitted 2.5 V
+  SW[0]: expected C10, fitted H13
+  SW[0]: expected 3.3-V LVTTL, fitted 2.5 V
+  SW[1]: expected C11, fitted D14
+  SW[1]: expected 3.3-V LVTTL, fitted 2.5 V
+  SW[2]: expected D12, fitted J12
+  SW[2]: expected 3.3-V LVTTL, fitted 2.5 V
+  SW[3]: expected C12, fitted E12
+  SW[3]: expected 3.3-V LVTTL, fitted 2.5 V
+  SW[4]: expected A12, fitted C15
+  SW[4]: expected 3.3-V LVTTL, fitted 2.5 V
+  SW[5]: expected B12, fitted C13
+  SW[5]: expected 3.3-V LVTTL, fitted 2.5 V
+  SW[6]: expected A13, fitted A15
+  SW[6]: expected 3.3-V LVTTL, fitted 2.5 V
+  SW[7]: expected A14, fitted E13
+  SW[7]: expected 3.3-V LVTTL, fitted 2.5 V
+  SW[8]: expected B14, fitted T6
+  SW[8]: expected 3.3-V LVTTL, fitted 2.5 V
+  SW[9]: expected F15, fitted B7
+  SW[9]: expected 3.3-V LVTTL, fitted 2.5 V
+  LEDR[0]: expected A8, fitted J13
+  LEDR[0]: expected 3.3-V LVTTL, fitted 2.5 V
+  LEDR[1]: expected A9, fitted A14
+  LEDR[1]: expected 3.3-V LVTTL, fitted 2.5 V
+  LEDR[2]: expected A10, fitted A7
+  LEDR[2]: expected 3.3-V LVTTL, fitted 2.5 V
+  LEDR[3]: expected B10, fitted A8
+  LEDR[3]: expected 3.3-V LVTTL, fitted 2.5 V
+  LEDR[4]: expected D13, fitted H12
+  LEDR[4]: expected 3.3-V LVTTL, fitted 2.5 V
+  LEDR[5]: expected C13, fitted B11
+  LEDR[5]: expected 3.3-V LVTTL, fitted 2.5 V
+  LEDR[6]: expected E14, fitted J11
+  LEDR[6]: expected 3.3-V LVTTL, fitted 2.5 V
+  LEDR[7]: expected D14, fitted H14
+  LEDR[7]: expected 3.3-V LVTTL, fitted 2.5 V
+  LEDR[8]: expected A11, fitted E11
+  LEDR[8]: expected 3.3-V LVTTL, fitted 2.5 V
+  LEDR[9]: expected B11, fitted B12
+  LEDR[9]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX0[0]: expected C14, fitted C11
+  HEX0[0]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX0[1]: expected E15, fitted A10
+  HEX0[1]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX0[2]: expected C15, fitted B14
+  HEX0[2]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX0[3]: expected C16, fitted B10
+  HEX0[3]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX0[4]: expected E16, fitted B8
+  HEX0[4]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX0[5]: expected D17, fitted C10
+  HEX0[5]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX0[6]: expected C17, fitted A11
+  HEX0[6]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX0[7]: expected D15, fitted T20
+  HEX0[7]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX1[0]: expected C18, fitted C14
+  HEX1[0]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX1[1]: expected D18, fitted C12
+  HEX1[1]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX1[2]: expected E18, fitted D12
+  HEX1[2]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX1[3]: expected B16, fitted A12
+  HEX1[3]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX1[4]: expected A17, fitted C16
+  HEX1[4]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX1[5]: expected A18, fitted A16
+  HEX1[5]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX1[6]: expected B17, fitted D13
+  HEX1[6]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX1[7]: expected A16, fitted AA12
+  HEX1[7]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX2[0]: expected B20, fitted H11
+  HEX2[0]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX2[1]: expected A20, fitted V7
+  HEX2[1]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX2[2]: expected B19, fitted A13
+  HEX2[2]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX2[3]: expected A21, fitted J10
+  HEX2[3]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX2[4]: expected B21, fitted C9
+  HEX2[4]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX2[5]: expected C22, fitted C7
+  HEX2[5]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX2[6]: expected B22, fitted A9
+  HEX2[6]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX2[7]: expected A19, fitted J20
+  HEX2[7]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX3[0]: expected F21, fitted Y10
+  HEX3[0]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX3[1]: expected E22, fitted A20
+  HEX3[1]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX3[2]: expected E21, fitted M21
+  HEX3[2]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX3[3]: expected C19, fitted R10
+  HEX3[3]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX3[4]: expected C20, fitted R20
+  HEX3[4]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX3[5]: expected D19, fitted U4
+  HEX3[5]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX3[6]: expected E17, fitted B17
+  HEX3[6]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX3[7]: expected D22, fitted AA13
+  HEX3[7]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX4[0]: expected F18, fitted Y22
+  HEX4[0]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX4[1]: expected E20, fitted E6
+  HEX4[1]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX4[2]: expected E19, fitted R11
+  HEX4[2]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX4[3]: expected J18, fitted D18
+  HEX4[3]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX4[4]: expected H19, fitted AB18
+  HEX4[4]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX4[5]: expected F19, fitted V13
+  HEX4[5]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX4[6]: expected F20, fitted B3
+  HEX4[6]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX4[7]: expected F17, fitted Y20
+  HEX4[7]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX5[0]: expected J20, fitted W14
+  HEX5[0]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX5[1]: expected K20, fitted B15
+  HEX5[1]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX5[2]: expected L18, fitted K1
+  HEX5[2]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX5[3]: expected N18, fitted D21
+  HEX5[3]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX5[4]: expected M20, fitted AB16
+  HEX5[4]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX5[5]: expected N19, fitted W11
+  HEX5[5]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX5[6]: expected N20, fitted AA20
+  HEX5[6]: expected 3.3-V LVTTL, fitted 2.5 V
+  HEX5[7]: expected L19, fitted AA5
+  HEX5[7]: expected 3.3-V LVTTL, fitted 2.5 V
